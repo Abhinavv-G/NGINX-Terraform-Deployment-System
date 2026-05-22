@@ -11,7 +11,6 @@ A DevOps project demonstrating Docker containerization, NGINX load balancing, Do
 - NGINX
 - Jenkins
 - Python Flask
-- 
 
 ## Features
 
