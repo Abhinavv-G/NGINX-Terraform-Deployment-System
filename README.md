@@ -1,7 +1,7 @@
 # NGINX Load-Balanced CI/CD Platform
 
 
-A DevOps project demonstrating Docker containerization, NGINX load balancing, Docker networking, and CI/CD automation using Jenkins.
+A DevOps project demonstrating Docker containerization, NGINX load balancing, Docker networking, and CI workflow using Jenkins.
 
 
 ## Tech Stack
