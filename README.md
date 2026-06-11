@@ -18,7 +18,7 @@ A DevOps project demonstrating Docker containerization, NGINX load balancing, Do
 - NGINX reverse proxy
 - Round-robin load balancing
 - Docker bridge networking
-- Jenkins CI worflow
+- Jenkins CI workflow
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/c10dba65-781c-45e1-bc42-fbf35784423f" />
 
