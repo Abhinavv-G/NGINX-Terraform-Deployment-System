@@ -3,11 +3,11 @@
 *.tfstate
 *.tfstate.*
 .terraform.lock.hcl
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.backup
 
 # Python
 __pycache__/
 *.pyc
 
-terraform/.terraform/
-terraform/*.tfstate
-terraform/*.tfstate.backup
