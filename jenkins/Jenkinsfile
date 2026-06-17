@@ -10,21 +10,27 @@ pipeline {
             }
         }
 
-        stage('Check Files') {
+        stage('Terraform Init') {
             steps {
-                bat 'dir'
+                bat 'cd terraform && terraform init'
             }
         }
 
-        stage('Build') {
+        stage('Terraform Validate') {
             steps {
-                bat 'docker compose build'
+                bat 'cd terraform && terraform validate'
             }
         }
 
-        stage('Deploy') {
+        stage('Terraform Plan') {
             steps {
-                bat 'docker compose up -d'
+                bat 'cd terraform && terraform plan'
+            }
+        }
+
+        stage('Terraform Apply') {
+            steps {
+                bat 'cd terraform && terraform apply -auto-approve'
             }
         }
     }
