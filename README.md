@@ -9,19 +9,6 @@ A multi-container infrastructure platform that demonstrates Infrastructure as Co
 
 ---
 
-## Features
-
-* Infrastructure provisioning using Terraform and Docker Provider
-* Multi-container application deployment
-* NGINX reverse proxy configuration
-* Round Robin load balancing across Flask backend containers
-* Custom Docker networking with service discovery
-* Automated deployment through Jenkins CI/CD pipelines
-* Declarative Infrastructure as Code (IaC)
-* Terraform state management and lifecycle control
-
----
-
 ## Tech Stack
 
 | Category               | Technologies          |
@@ -46,24 +33,6 @@ The following infrastructure components are provisioned through Terraform:
 * Flask Backend Container 2 (`app2`)
 * NGINX Load Balancer Container
 
-
-## Jenkins Pipeline Stages
-
-```text
-Clone Repository
-        │
-        ▼
-Terraform Init
-        │
-        ▼
-Terraform Validate
-        │
-        ▼
-Terraform Plan
-        │
-        ▼
-Terraform Apply
-```
 
 
 ## Verification
