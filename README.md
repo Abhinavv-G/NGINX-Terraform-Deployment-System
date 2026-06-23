@@ -5,7 +5,8 @@ A multi-container infrastructure platform that demonstrates Infrastructure as Co
 
 ## Architecture
 
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/7e8c63f2-bf07-49b2-89ea-3e4ef61139aa" />
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/a0ef2b5a-bd7c-4f0f-96da-3f89417fcbc5" />
+
 
 ---
 
